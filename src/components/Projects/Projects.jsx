@@ -16,7 +16,10 @@ function Projects() {
         target="_blank" rel='noopener noreferrer'
         >
         <div className="card">
-          teste
+          <img src="" alt="" />
+          <p>{projeto.titulo}</p>
+          <div>{projeto.desc}</div>
+          <div>{projeto.ref}</div>
         </div>  
         </a>
         )}
