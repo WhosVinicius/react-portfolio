@@ -12,9 +12,11 @@ ul {
 }
 
 .nav-container {
+    position: fixed;
+    width: 100%;
+    z-index: 3;
     background: rgba(26, 26, 28);
     height: 60px;
-    /* background-color: rgba(0, 0, 0, 0.45); */
     border-bottom: 2px solid #ff6666;
     align-items: center;
     display: flex;
