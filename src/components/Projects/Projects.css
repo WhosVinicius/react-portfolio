@@ -6,6 +6,36 @@
 }
 
 .projects-container {
-    margin-top: 0;
     background: rgb(24, 24,24);
+}   
+
+.card-container {
+    display: flex;
+    padding: 50px;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+
+.card {
+    padding: 20px;
+    border: 3px solid #ff6666;
+    border-radius: 16px;
+    width: 300px;
+    height: 320px;
+    text-align: center;
+    color: rgb(180,180,180);
+
+}
+
+.card img{
+    background-color: white;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    border: 10px solid rgb(15, 15,15);
+    padding: 5px;
+    object-fit: cover;
+    object-position: center;
 }
