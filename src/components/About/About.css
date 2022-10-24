@@ -1,0 +1,48 @@
+.apresentacao {
+   padding: 0;
+   width: 40%;
+   margin: 40px;
+   display: flex;
+   flex-direction: column;
+}
+
+.static-txt {
+   align-self: center;
+   color: rgb(160, 160, 160);
+   font-size: 50px;
+   font-weight: 400;
+}
+
+.dynamic-txt {
+   font-size: 45px;
+   color: #ff6666;
+   align-self: flex-end;
+}
+
+.description {
+   background-image: url("C:\Users\silva\OneDrive\Documentos\Projetos\projeto-react\webfolio\public\assets\imgs\coding-.png");
+   background-size: contain;
+   overflow: hidden;
+   background-repeat: no-repeat;
+   margin: 40px;
+   width: 40%;
+}
+
+.about-container {
+   background: rgb(35, 35, 37);
+   width: 100%;
+   height: 100%;
+   display: flex;
+}
+.description img {
+   height: 250px;
+   width: 250px;
+}
+
+.apresentacao p {
+  color: rgb(160, 160, 160);
+  margin: 40px;
+  background-color: rgba(0, 0, 0, 0.10);
+  padding: 15px;
+  border-radius: 10px;
+}
