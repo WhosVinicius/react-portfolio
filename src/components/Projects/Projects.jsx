@@ -6,22 +6,24 @@ function Projects() {
   return (
     <div className='projects-container'>
       <div className="icone1">
-        {'< />'}
+        {'< / >'}
       </div>
       <div className='card-container'>
         {projects.map((projeto)=>(
+      <div className="card">
         <a 
         href={projeto.repo}
         key={projeto.titulo}
         target="_blank" rel='noopener noreferrer'
         >
-        <div className="card">
-          <img src= {projeto.img} alt="" />
-          <p>{projeto.titulo}</p>
+        <img src= {projeto.img} alt="" />
+        <div className="items-cont">
+          <h2>{projeto.titulo}</h2>
           <div>{projeto.desc}</div>
-          <div>{projeto.ref}</div>
+          <div>Referencia:<br/>{projeto.ref}</div>
         </div>  
         </a>
+          </div>
         ))}
       </div>
     </div>
