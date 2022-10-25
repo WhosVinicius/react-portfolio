@@ -5,22 +5,24 @@ function About() {
       <div className="about-container">
          <div className="apresentacao">
             <div className="static-txt">
+               <h1>
                {"/*"}
                <br />
                Oi, eu sou Vinicius
+               </h1>
             </div>
             <div className="dynamic-txt">
-               Desenvolvedor-web
+               <h1>
+                  Desenvolvedor-web
+                  {"*/"}
+               </h1>
                <br />
-               {"*/"}
             </div>
-            <p>
-               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque porro corrupti excepturi earum sequi aspernatur vel quod quis impedit dicta,
-               numquam voluptas, voluptatem at accusantium sed! Nulla consequuntur repudiandae perspiciatis at vero, illo quidem aspernatur odit adipisci
-               possimus rem molestias quod maxime illum enim pariatur facilis? Corrupti odio amet esse! Link para meu Github:
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsam?
             </p>
          </div>
-         <div className="description"></div>
+         <div className="t">
+         </div>
       </div>
    );
 }
