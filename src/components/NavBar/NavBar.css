@@ -10,8 +10,8 @@ ul {
     position: fixed;
     width: 100%;
     z-index: 3;
-    background: rgba(30, 30, 32);
-    height: 65px;
+    background: rgba(26, 26, 28);
+    height: 9%;
     border-bottom: 2px solid #ff666699;
     align-items: center;
     display: flex;
@@ -24,7 +24,7 @@ ul {
 ul li {
 
     color:rgb(160, 160, 160);
-    font-size: 1.5vw;    
+    font-size: 1.3vw;    
     cursor: pointer;
     text-transform: capitalize;
     transition: .2s ease;
@@ -42,5 +42,5 @@ ul li:hover {
 
 .logo {
     color: #ff6666;
-    font-size: 2vw;
+    font-size: 1.8vw;
 }

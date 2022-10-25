@@ -12,10 +12,10 @@
 
 .apresentacao {
    display: flex;
-   /* padding: 5px; */
+   padding: 5px;
    width: 50%;
    margin: 30px;
-   margin-top: 10px;
+   align-self: center;
    flex-direction: column;
 }
 
@@ -35,7 +35,7 @@
 
 .t {
    align-items: flex-end;
-   background-image: url("C:\Users\silva\OneDrive\Documentos\Projetos\projeto-react\webfolio\public\assets\imgs\coding-.png");
+   background-image: url("C:\Users\Vinicius\Documents\Projects\web-portfolio\react-portfolio\public\assets\imgs\coding-.png");
    background-size:contain;
    background-position: center;
    background-repeat: no-repeat;

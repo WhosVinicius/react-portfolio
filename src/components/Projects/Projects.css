@@ -1,17 +1,17 @@
 .projects-container {
    background: rgb(24, 24, 24);
    margin-bottom: 500px;
-   height: 150vh;
+   height: 120vh;
    /* overflow: hidden; */
    /* width: 100vw; */
 }
 .icone1 {
-   padding-top: 5px;
+   padding-top: 10px;
    display: block;
    font-size: 40px;
    text-align: center;
    color: #ff6666;
-   margin-bottom: 50px;
+   margin-bottom: 90px;
 }
 
 .card a {
