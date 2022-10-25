@@ -2,7 +2,7 @@ export const projects = [
     
     {
         titulo:'Pokedex'
-        ,desc:'Um Pokedex feito utilizando JS puro,css e HTML e APIs'
+        ,desc:'Um Pokedex feito utilizando JS puro, CSS, HTML e APIs'
         ,ref:'https:/www.youtube.com/watch?v=dVtnFH4m_fE'
         ,repo:'https:/github.com/WhosVinicius/Simple-Pokedex-JS'
         ,img:require('./pokemon.png')

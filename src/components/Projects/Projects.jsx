@@ -6,9 +6,8 @@ function Projects() {
   return (
     <div className='projects-container'>
       <div className="icone1">
-        {'< / >'}
         <h4>
-          Projetos feitos
+        {'< Projetos feitos />'}
         </h4>
       </div>
       <div className='card-container'>
