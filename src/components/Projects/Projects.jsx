@@ -7,6 +7,9 @@ function Projects() {
     <div className='projects-container'>
       <div className="icone1">
         {'< / >'}
+        <h4>
+          Projetos feitos
+        </h4>
       </div>
       <div className='card-container'>
         {projects.map((projeto)=>(
