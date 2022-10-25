@@ -34,7 +34,6 @@
 }
 
 .t {
-   /* display: flex; */
    align-items: flex-end;
    background-image: url("C:\Users\silva\OneDrive\Documentos\Projetos\projeto-react\webfolio\public\assets\imgs\coding-.png");
    background-size:contain;
@@ -48,9 +47,8 @@
 
 .apresentacao p {
   color: rgb(160, 160, 160);
-  /* margin: 40px; */
-  background-color: rgba(0, 0, 0, 0.10);
-  padding: 15px;
+  /* background-color: rgba(0, 0, 0, 0.10); */
+  padding: 5px;
   border-radius: 10px;
   width: 70fr;
 }

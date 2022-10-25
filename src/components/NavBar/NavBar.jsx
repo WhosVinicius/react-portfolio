@@ -6,11 +6,10 @@ function NavBar() {
         <div className='logo'>{'<VINICIUS G />'}</div>
         <div>
             <ul>
-                <li>home</li>
-                <li>about</li>
-                <li>projects</li>
-                <li>skills</li>
-                <li>contact</li>
+                <li>sobre mim</li>
+                <li>projeto</li>
+                <li>tecnologias</li>
+                <li>contato</li>
             </ul>
         </div>
     </div>
