@@ -1,19 +1,27 @@
-import React from 'react'
-import './NavBar.css'
+import React from "react";
+import "./NavBar.css";
 function NavBar() {
-  return (
-    <div className='nav-container'>
-        <div className='logo'>{'<VINICIUS G />'}</div>
-        <div>
+   return (
+      <div className="nav-container">
+         <div className="logo">{"< VINICIUS G / >"}</div>
+         <div>
             <ul>
-                <li>sobre mim</li>
-                <li>projeto</li>
-                <li>tecnologias</li>
-                <li>contato</li>
+               <li>
+                  <a href="#about">sobre mim</a>
+               </li>
+               <li>
+                  <a href="#projetos">projeto</a>
+               </li>
+               <li>
+                  <a href="#skills">tecnologias</a>
+               </li>
+               <li>
+                  <a href="contact">contatos</a>
+               </li>
             </ul>
-        </div>
-    </div>
-  )
+         </div>
+      </div>
+   );
 }
 
-export default NavBar
+export default NavBar;

@@ -1,0 +1,43 @@
+.skills-container {
+    padding-top:20px ;
+    background: rgb(17, 17, 17);
+    height: 100vh;
+}
+
+.skills-list {
+    margin-top: 50px;
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+    padding: 10px;
+    background-color: rgba(30, 30, 30, 1);
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+
+}
+
+.skill-card div {
+    height: 180px;
+    font-size: 16px;
+    margin: 20px;
+    color: rgb(160, 160, 160);
+    background-color: rgba(21, 21, 21, 0.55);
+    border-radius: 10px;
+    padding: 15px;
+    border: 5px solid rgba(21, 21, 21, 0.35);
+ }
+
+ .skill-card img {
+    margin-left: 15px;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+ }
+

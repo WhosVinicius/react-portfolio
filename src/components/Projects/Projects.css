@@ -1,6 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 .projects-container {
-   background: rgb(24, 24, 24);
-   margin-bottom: 500px;
+   background: rgb(26, 26, 26);
    height: 120vh;
    /* overflow: hidden; */
    /* width: 100vw; */
@@ -9,9 +9,12 @@
    padding-top: 10px;
    display: block;
    font-size: 40px;
-   text-align: center;
-   color: #ff6666;
    margin-bottom: 90px;
+}
+
+.icone1 h4 {
+   font-family: 'Fira Code', cursive !important;
+
 }
 
 .card a {
@@ -29,15 +32,12 @@
 }
 
 .card {
-   background-color: rgba(34, 34, 34, 1);
+   background-color: rgba(39, 39, 39, 1);
    display: flex;
    flex-direction: column;
-   /* padding: 10px; */
-   /* border: 3px solid rgb(160,160,160); */
    border-radius: 10px;
-   width: 29%;
+   width: 28%;
    height: 370px;
-   text-align: center;
    color: rgb(180, 180, 180);
    transition: ease 0.2s;
 }
@@ -63,9 +63,7 @@
    padding: 10px;
 }
 
-.items-cont > h2 {
-   color: #ff6666;
-}
+
 
 .card:hover {
    background-color: rgba(70, 70, 70, 0.8);
