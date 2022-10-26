@@ -21,7 +21,7 @@ ul {
 
 ul li a {
    color: rgb(160, 160, 160);
-   font-size: 1.15vw;
+   font-size: 20px;
    cursor: pointer;
    text-transform: capitalize;
    transition: 0.2s ease;
@@ -35,5 +35,5 @@ ul li a:hover {
 
 .logo {
    color: #ff6666;
-   font-size: 1.65vw;
+   font-size: 36px;
 }

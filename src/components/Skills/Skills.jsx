@@ -2,7 +2,7 @@ import React from "react";
 import "./Skills.css";
 import { skills } from "./skills";
 
-function Skills() {
+const  Skills =() => {
    return (
       <div
          id="skills"
@@ -14,12 +14,12 @@ function Skills() {
             {skills.map((skill) => (
                <div
                   key={skill.nome}
-                  className="skill-card">
+                  className="skill-card ">
                   <img
                      src={skill.img}
                      alt=""
                   />
-                  <div className="items-cont cor">
+                  <div className="items-cont border-5">
                      <h2 className="center-text cor-destaque m-20">{skill.nome}</h2>
                      <p className="center-text">
                         {skill.desc}

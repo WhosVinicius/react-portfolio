@@ -31,3 +31,28 @@ code {
 .m-20 {
   margin: 20px;
 }
+
+.m-50 {
+  margin: 50px;
+}
+
+.border-5 {
+  border: 5px solid rgb(21, 21, 21,.35)
+}
+
+.lg-1 {
+  word-wrap: break-word;
+  padding: 30px !important;
+  height:220px !important;
+}
+
+.items-cont{
+  height: 180px;
+  margin: auto;
+  font-size: 16px;
+  margin: 20px;
+  color: rgb(160, 160, 160);
+  background-color: rgba(21, 21, 21, 0.55);
+  border-radius: 10px;
+  /* padding: 15px; */
+}

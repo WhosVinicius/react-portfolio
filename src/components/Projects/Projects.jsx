@@ -22,14 +22,14 @@ function Projects() {
                         src={projeto.img}
                         alt=""
                      />
-                     <div className="items-cont">
-                        <h2 className="cor-destaque">{projeto.titulo}</h2>
-                        <div>{projeto.desc}</div>
-                        <div>
+                     <div className="lg-1 items-cont m-50">
+                        <h2 className="cor-destaque m-20">{projeto.titulo}</h2>
+                        <p>{projeto.desc}</p>
+                        <p>
                            Referencia:
                            <br />
                            {projeto.ref}
-                        </div>
+                        </p>
                      </div>
                   </a>
                </div>
