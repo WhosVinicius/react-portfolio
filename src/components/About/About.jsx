@@ -20,16 +20,16 @@ function About() {
          <div className="t"></div>
          <div className="aux center-text">
             <ul className="center-text">
-            <li>
+            <li className="center-text">
                   <a href="#about">sobre mim</a>
                </li>
-               <li>
+               <li className="center-text">
                   <a href="#projetos">projeto</a>
                </li>
-               <li>
+               <li className="center-text">
                   <a href="#skills">tecnologias</a>
                </li>
-               <li>
+               <li className="center-text">
                   <a href="contact">contatos</a>
                </li>
             </ul>
