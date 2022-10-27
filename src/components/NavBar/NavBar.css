@@ -19,7 +19,7 @@ ul {
    justify-content: space-evenly;
 }
 
-ul li a {
+.nav-container ul li a {
    color: rgb(160, 160, 160);
    font-size: 20px;
    cursor: pointer;

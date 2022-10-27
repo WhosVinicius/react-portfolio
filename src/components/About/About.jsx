@@ -6,7 +6,7 @@ function About() {
          <div className="apresentacao">
             <div className="static-txt">
                <h1>
-                  Oi, eu sou Vinicius
+                  Oi, eu sou o Vinicius
                </h1>
             </div>
             <div className="dynamic-txt">
@@ -18,6 +18,22 @@ function About() {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsam?</p>
          </div>
          <div className="t"></div>
+         <div className="aux center-text">
+            <ul className="center-text">
+            <li>
+                  <a href="#about">sobre mim</a>
+               </li>
+               <li>
+                  <a href="#projetos">projeto</a>
+               </li>
+               <li>
+                  <a href="#skills">tecnologias</a>
+               </li>
+               <li>
+                  <a href="contact">contatos</a>
+               </li>
+            </ul>
+         </div>
       </div>
    );
 }

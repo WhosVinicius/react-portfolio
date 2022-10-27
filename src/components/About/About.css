@@ -52,6 +52,9 @@
    border-radius: 10px;
 }
 
+.aux {
+   display: none;
+}
 .apresentacao p {
   color: rgb(160, 160, 160);
   /* padding: 5px; */
@@ -97,4 +100,33 @@
    .apresentacao h1 {
       letter-spacing: 1px;
    }
+
+   .aux {
+      padding: 50px;
+      display: flex;
+      text-align: center;
+      align-self: center;
+      align-content: center;
+      justify-content: center;
+      font-size: 16px;
+   }
+   .aux ul {
+      align-self: center;
+      width: 250px;
+      display: flex;
+      gap: 50px;
+      flex-wrap: wrap;
+      text-align: center;
+      align-self: center;
+      align-content: center;
+      justify-content: center;
+
+   }
+   .aux ul li a {
+      color: rgb(160, 160, 160);
+
+      cursor: pointer;
+      text-transform: capitalize;
+   }
+
 }
