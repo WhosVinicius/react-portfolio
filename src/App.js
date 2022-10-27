@@ -5,18 +5,14 @@ import NavBar from './components/NavBar/NavBar'
 import Projects from './components/Projects/Projects'
 import Skills from './components/Skills/Skills.jsx'
 import Contact from './components/Contact/Contact'
-
+import FullPageE from './FullPageE';
 
 function App() {
   return (
     <div
       className="App">
 
-      <NavBar />
-      <About />
-      <Projects />
-      <Skills />
-      <Contact />
+      <FullPageE/>
 
     </div>
 
