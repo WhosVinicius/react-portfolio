@@ -77,7 +77,7 @@ h1 {
 	.about-container {
 		margin: 0;
 		padding: 0;
-		height: 80vh;
+		height: 100vh;
 		width: 100%;
 		flex-direction: column;
 	}
@@ -106,7 +106,7 @@ h1 {
 	}
 
 	.aux {
-		padding: 50px;
+		/* padding: 50px; */
 		display: flex;
 		text-align: center;
 		align-self: center;

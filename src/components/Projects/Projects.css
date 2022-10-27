@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 .projects-container {
    background: rgb(26, 26, 26);
-   height: 120vh;
+   /* height: 120vh; */
    /* overflow: hidden; */
    /* width: 100vw; */
 }
@@ -23,12 +23,12 @@
 
 .card-container {
    display: flex;
-   /* height: 100vh; */
    padding: 50px;
-   gap:100px;
+   gap:50px;
+   row-gap: 120px;
    flex-wrap: wrap;
    margin: auto;
-   /* justify-content: center; */
+   justify-content:center;
 }
 
 .card {
@@ -37,7 +37,7 @@
    flex-direction: column;
    border-radius: 10px;
    width: 29%;
-   height: 380px;
+   height: 400px;
    color: rgb(180, 180, 180);
    transition: ease 0.2s;
 }
@@ -67,30 +67,29 @@
    height: 117px;
 }
 @media only screen and (max-width: 986px) {
-   .projects-container {
-      overflow-x: scroll;
-   }
+
    .card-container{
+      gap: 0;
+      height: 100vh;
       margin-top: 0;
       flex-wrap: nowrap;
       overflow-x: scroll;
-      justify-content:  flex-start;
-      padding: 0;
-      margin: 0 auto;
       height: 60vh;
       padding: 15px;
       align-items: center;
       width: 350px;
+      height: 550px;
    }
    .card {
-      min-width: 80%;
+      margin: 30px;
+      min-width: 85%;
    }
    .icone1 {
       margin-bottom: 30px;
       font-size: 28px;
    }
    .projects-container .icone1 {
-      padding: 20px;
+      padding: 10px;
       padding-top: 20px;
    }
    .items-cont{
