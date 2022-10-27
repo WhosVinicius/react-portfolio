@@ -11,9 +11,9 @@ ul {
    z-index: 3;
    background: rgba(26, 26, 26);
    height: 9%;
-   border-bottom: 2px solid #ff66666d;
+   /* border-bottom: 2px solid #ff66666d; */
    align-items: center;
-   display: flex;
+   display: flex  ;
    gap: 35px;
    flex-direction: row;
    justify-content: space-evenly;
@@ -34,6 +34,8 @@ ul li a:hover {
 }
 
 .logo {
-   color: #ff6666;
-   font-size: 36px;
+	background-clip: text;
+	background: -webkit-linear-gradient(45deg,rgb(160, 143, 143), #ff5555);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;   font-size: 36px;
 }

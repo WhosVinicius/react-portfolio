@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 .projects-container {
    background: rgb(26, 26, 26);
-   height: 100%;
+   height: 120vh;
    /* overflow: hidden; */
    /* width: 100vw; */
 }
@@ -25,10 +25,10 @@
    display: flex;
    /* height: 100vh; */
    padding: 50px;
-   gap: 50px;
+   gap:100px;
    flex-wrap: wrap;
    margin: auto;
-   justify-content: center;
+   /* justify-content: center; */
 }
 
 .card {
@@ -37,7 +37,7 @@
    flex-direction: column;
    border-radius: 10px;
    width: 29%;
-   height: 400px;
+   height: 380px;
    color: rgb(180, 180, 180);
    transition: ease 0.2s;
 }
@@ -50,7 +50,6 @@
    width: 110px;
    height: 110px;
    border: 7px solid rgb(15, 15, 15);
-   padding: 5px;
    transition: ease 0.25s;
 }
 

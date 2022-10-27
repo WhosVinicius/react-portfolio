@@ -1,132 +1,133 @@
 .about-container {
-   padding: 5px;
-   padding-top: 25px;
-   background: rgb(34,34,34);
-   background: linear-gradient(45deg, rgba(34,34,34,1) 30%, rgba(17,17,17,1) 81%);   height: 80vh;
-   display: flex;
-   padding-top: 100px;
-   margin-bottom: 0px;
-   padding-bottom: 0px;
-}
 
-.static-txt h1::after {
-   color: #fffb7e;
-   content: ' {';
-}
-.dynamic-txt h1::after {
-   color: #fffb7e;
-   content: ' }';
-}
+	background: rgb(34, 34, 34);
+	background: linear-gradient(45deg, rgba(34, 34, 34, 1) 30%, rgba(17, 17, 17, 1) 81%);
+	height: 100vh;
+	display: flex;
 
-
-.apresentacao {
-   padding: 5px;
-   width: 50%;
-   margin: 40px;
-   align-self: center;
-   flex-direction: column;
 }
 
 .static-txt {
-   align-self: center;
-   color: rgb(160, 160, 160);
-   font-size: 30px;
-   font-weight: 400;
+	align-self: center;
+	color: rgb(160, 160, 160);
+	font-size: 28px;
+	font-weight: 400;
 }
 
-.dynamic-txt {
-   margin-left: 70px;
-   font-size: 34px;
-   color: #ff6666;
-   
+.dynamic-txt  {
+	margin-left: 70px;
+	font-size: 34px;
+	background-clip: text;
+	background: -webkit-linear-gradient(45deg,rgb(160, 143, 143), #ff6666);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  }
+  
+	/* color: #ff6666; */
+
+
+
+/* .static-txt h1::after {
+	color: #fffb7e;
+	content: " {";
 }
+.dynamic-txt h1::after {
+	color: #fffb7e;
+	content: " }";
+} */
+
+.apresentacao {
+	padding: 5px;
+	width: 50%;
+	margin: 40px;
+	align-self: center;
+	flex-direction: column;
+}
+
+
+
+
 
 .t {
-   background-image: url("C:\Users\Vinicius\Documents\Projects\web-portfolio\react-portfolio\public\assets\imgs\coding-.png");
-   background-size:contain;
-   background-position: center;
-   background-repeat: no-repeat;
-   /* margin: 60px; */
-   width: 1000px;
-   /* height: 3500px; */
-   border-radius: 10px;
+	background-image: url("C:\Users\Vinicius\Documents\Projects\web-portfolio\react-portfolio\public\assets\imgs\coding-.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 1000px;
+	border-radius: 10px;
 }
 
 .aux {
-   display: none;
+	display: none;
 }
 .apresentacao p {
-  color: rgb(160, 160, 160);
-  /* padding: 5px; */
-  font-size: 20px;
+	color: rgb(160, 160, 160);
+	font-size: 20px;
 }
 
-.apresentacao p,h1 {
-   font-family: 'Open Sans' !important;
-
+.apresentacao p,
+h1 {
+	font-family: "Open Sans" !important;
 }
 
 @media only screen and (max-width: 986px) {
-   .nav-container {
-      display: none !important;
-   }
-   .about-container {
-      margin: 0;
-      padding: 0;
-      height: 80vh;
-      width: 100%;
-      flex-direction: column;
-   }
-   .apresentacao {
-      width: 80%;
-      display: inline-block;
-      word-wrap: break-word;
-      align-self: auto;
-      padding: 0;
-   }
-   .dynamic-txt {
-      margin: 0;
-      font-size: 22px;
-   }
-   .static-txt {
-      font-size: 20px;
-   }
-   .t {
-      display: none;
-   }
-   .apresentacao p {
-      font-size: 16px;
-   }
-   .apresentacao h1 {
-      letter-spacing: 1px;
-   }
+	.nav-container {
+		display: none !important;
+	}
+	.about-container {
+		margin: 0;
+		padding: 0;
+		height: 80vh;
+		width: 100%;
+		flex-direction: column;
+	}
+	.apresentacao {
+		width: 80%;
+		display: inline-block;
+		word-wrap: break-word;
+		align-self: auto;
+		padding: 0;
+	}
+	.dynamic-txt {
+		margin: 0;
+		font-size: 22px;
+	}
+	.static-txt {
+		font-size: 18px;
+	}
+	.t {
+		display: none;
+	}
+	.apresentacao p {
+		font-size: 16px;
+	}
+	.apresentacao h1 {
+		letter-spacing: 1px;
+	}
 
-   .aux {
-      padding: 50px;
-      display: flex;
-      text-align: center;
-      align-self: center;
-      align-content: center;
-      justify-content: center;
-      font-size: 16px;
-   }
-   .aux ul {
-      align-self: center;
-      width: 250px;
-      display: flex;
-      gap: 50px;
-      flex-wrap: wrap;
-      text-align: center;
-      align-self: center;
-      align-content: center;
-      justify-content: center;
-
-   }
-   .aux ul li a {
-      color: rgb(160, 160, 160);
-
-      cursor: pointer;
-      text-transform: capitalize;
-   }
-
+	.aux {
+		padding: 50px;
+		display: flex;
+		text-align: center;
+		align-self: center;
+		align-content: center;
+		justify-content: center;
+		font-size: 16px;
+	}
+	.aux ul {
+		align-self: center;
+		width: 250px;
+		display: flex;
+		gap: 50px;
+		flex-wrap: wrap;
+		text-align: center;
+		align-self: center;
+		align-content: center;
+		justify-content: center;
+	}
+	.aux ul li a {
+		color: rgb(160, 160, 160);
+		cursor: pointer;
+		text-transform: capitalize;
+	}
 }
