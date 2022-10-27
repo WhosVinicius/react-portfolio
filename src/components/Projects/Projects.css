@@ -6,7 +6,7 @@
    /* width: 100vw; */
 }
 .icone1 {
-   padding-top: 10px;
+   padding-top: 25px;
    display: block;
    font-size: 40px;
    margin-bottom: 90px;
@@ -68,14 +68,30 @@
    height: 117px;
 }
 @media only screen and (max-width: 986px) {
+   .projects-container {
+      overflow-x: scroll;
+   }
    .card-container{
-      gap: 100px;
+      margin-top: 0;
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+      justify-content:  flex-start;
+      padding: 0;
+      margin: 0 auto;
+      height: 60vh;
+      padding: 15px;
+      align-items: center;
+      width: 350px;
    }
    .card {
-      width: 350px;
+      min-width: 80%;
    }
    .icone1 {
       margin-bottom: 30px;
+   }
+   .projects-container .icone1 {
+      padding: 20px;
+      padding-top: 20px;
    }
    .items-cont{
       height: 60% !important;

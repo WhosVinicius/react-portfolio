@@ -6,15 +6,12 @@ function About() {
          <div className="apresentacao">
             <div className="static-txt">
                <h1>
-                  {"/*"}
-                  <br />
                   Oi, eu sou Vinicius
                </h1>
             </div>
             <div className="dynamic-txt">
                <h1>
-                  Desenvolvedor front-end <br/>
-                  {" */"}
+                  Desenvolvedor <br/> front-end 
                </h1>
                <br />
             </div>
