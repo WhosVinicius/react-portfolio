@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 .projects-container {
    background: rgb(26, 26, 26);
-   /* height: 120vh; */
-   /* overflow: hidden; */
-   /* width: 100vw; */
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+   
+   justify-content: center;
+   align-items: center;
 }
-.icone1 {
-   padding-top: 25px;
-   display: block;
-   font-size: 40px;
-   margin-bottom: 90px;
-}
+
 
 .icone1 h4 {
    font-family: 'Fira Code', cursive !important;
@@ -22,22 +21,24 @@
 }
 
 .card-container {
+   height: 100vh;
+   gap: 0px;
+   width: 80vw;
    display: flex;
-   padding: 50px;
-   gap:50px;
-   row-gap: 120px;
    flex-wrap: wrap;
-   margin: auto;
-   justify-content:center;
+   /* justify-content:space-between; */
+   gap: 25px;
+   padding-bottom: 100px;
 }
 
 .card {
-      background-color: rgba(39, 39, 39, 1);
+   /* margin:5px; */
+   background-color: rgba(35, 35, 35, 1);
    display: flex;
    flex-direction: column;
    border-radius: 10px;
-   width: 29%;
-   height: 400px;
+   width: 31%;
+   height: 50%;
    color: rgb(180, 180, 180);
    transition: ease 0.2s;
 }
@@ -47,8 +48,8 @@
    align-self: flex-start;
    background-color: white;
    border-radius: 50%;
-   width: 110px;
-   height: 110px;
+   width: 70px;
+   height: 70px;
    border: 7px solid rgb(15, 15, 15);
    transition: ease 0.25s;
 }
@@ -63,8 +64,8 @@
 }
 
 .card:hover img {
-   width: 117px;
-   height: 117px;
+   width: 80px;
+   height: 80px;
 }
 @media only screen and (max-width: 986px) {
 
