@@ -19,7 +19,7 @@ const FullPageE = () => {
           <Skills/>
         </FullpageSection>
       </FullPageSections>
-    </Fullpage>
+    </Fullpage >
   )
 }
 
