@@ -1,10 +1,8 @@
 .about-container {
-
 	background: rgb(34, 34, 34);
 	background: linear-gradient(45deg, rgba(34, 34, 34, 1) 30%, rgba(17, 17, 17, 1) 81%);
 	height: 100vh;
 	display: flex;
-
 }
 
 .static-txt {
@@ -14,27 +12,15 @@
 	font-weight: 400;
 }
 
-.dynamic-txt  {
+.dynamic-txt {
 	margin-left: 70px;
-	font-size: 2.6em;
+	font-size: 2.3em;
+	width: 100%;
 	background-clip: text;
-	background: -webkit-linear-gradient(45deg,rgb(160, 143, 143), #ff6666);
+	background: -webkit-linear-gradient(45deg, rgb(160, 143, 143), #ff6666);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-  }
-  
-	/* color: #ff6666; */
-
-
-
-/* .static-txt h1::after {
-	color: #fffb7e;
-	content: " {";
 }
-.dynamic-txt h1::after {
-	color: #fffb7e;
-	content: " }";
-} */
 
 .apresentacao {
 	padding: 5px;
@@ -43,10 +29,6 @@
 	align-self: center;
 	flex-direction: column;
 }
-
-
-
-
 
 .t {
 	background-image: url("C:\Users\Vinicius\Documents\Projects\web-portfolio\react-portfolio\public\assets\imgs\coding-.png");
@@ -67,15 +49,21 @@
 	gap: 50px;
 	list-style: none;
 	color: rgb(160, 160, 160);
-	letter-spacing: 2px;
+	letter-spacing: 1.2px;
 	justify-content: space-around;
 }
 
+.aux ul li:hover  {
+	color: #ff6666
+	
+}
+
 .aux ul li {
+	font-size: 1.2em;
 	margin: 50px;
 	margin-top: 0;
-
 	cursor: pointer;
+	transition: 350ms ease;
 }
 
 .apresentacao p {
