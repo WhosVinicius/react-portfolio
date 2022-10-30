@@ -19,7 +19,7 @@ const  Skills =() => {
                      src={skill.img}
                      alt=""
                   />
-                     <h2 className="center-text cor-destaque m-20">{skill.nome}</h2>
+                     <h2 className="center-text cor-destaque m-20 card-title">{skill.nome}</h2>
                      <p className="desc m-20">
                         {skill.desc}
                      </p>

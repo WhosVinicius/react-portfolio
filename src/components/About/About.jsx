@@ -5,8 +5,8 @@ function About() {
 		<div
 			id="about"
 			className="about-container">
-
 				<div className="apresentacao">
+				{/* <div id="menu-background-pattern"></div> */}
 				<div className="static-txt">
 					<h1>Oi, eu sou o Vinicius</h1>
 				</div>

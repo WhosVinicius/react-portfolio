@@ -1,6 +1,6 @@
 .about-container {
 	background: rgb(34, 34, 34);
-	background: linear-gradient(45deg, rgba(34, 34, 34, 1) 30%, rgba(17, 17, 17, 1) 81%);
+	background: linear-gradient(55deg, rgba(34, 34, 34, 1) 20%, rgba(17, 17, 17, 1) 71%);
 	height: 100vh;
 	display: flex;
 }
@@ -23,6 +23,7 @@
 }
 
 .apresentacao {
+	z-index: 1;
 	padding: 5px;
 	width: 50%;
 	margin: 40px;
@@ -31,6 +32,7 @@
 }
 
 .t {
+	margin: 50px;
 	background-image: url("C:\Users\Vinicius\Documents\Projects\web-portfolio\react-portfolio\public\assets\imgs\coding-.png");
 	background-size: contain;
 	background-position: center;
@@ -76,6 +78,25 @@ h1 {
 	font-family: "Open Sans" !important;
 }
 
+#menu-background-pattern {
+	background-image: radial-gradient(
+	  rgba(255, 255, 255, 0.039) 9%, 
+	  transparent 9%
+	);
+	background-position: 0% 0%;
+	background-size: 4vmin 4vmin;
+	height: 100%;
+	left: 0px;
+	position: absolute;
+	top: 0px;
+	transition: opacity 800ms ease, 
+	  background-size 800ms ease,
+	  background-position 800ms ease;
+	width: 100%;
+	z-index: -1;
+  }
+   
+
 @media only screen and (max-width: 986px) {
 	.nav-container {
 		display: none !important;
@@ -112,7 +133,6 @@ h1 {
 	}
 
 	.aux {
-		/* padding: 50px; */
 		display: flex;
 		text-align: center;
 		align-self: center;

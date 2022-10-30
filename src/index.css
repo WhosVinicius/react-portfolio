@@ -47,25 +47,19 @@ code {
 }
 
 .items-cont{
+  display: flex;
+  flex-direction: column;
   height: 60%;
   margin: auto;
   font-size: 1.1em;
-  padding: 5px;
-  margin-top: 15px;
-  margin-right: 20px;
-  margin-left: 20px;
   color: rgb(160, 160, 160);
-  /* background-color: rgba(21, 21, 21, 0.55); */
   border-radius: 10px;
+  /* text-align: center; */
+  align-content: center;
+  align-items: center;
 }
 
-.item-cont-w- {
-  height: 80%;
-  width: 100%;
-  color: rgb(160, 160, 160);
-  background-color: rgba(21, 21, 21, 0.55);
-  border-radius: 10px;
-}
+
 
 .icone1 {
   padding-top: 25px;
@@ -87,4 +81,14 @@ code {
 
 .cor-sec {
   color: #ffc766;
+}
+
+.card-title {
+  word-wrap: none;
+  word-break: keep-all;
+    font-size: 1.2rem;
+    margin-right: 25px;
+    display: inline;
+    text-align: center;
+
 }

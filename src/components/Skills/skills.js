@@ -1,7 +1,7 @@
 export const skills = [
     {
         nome: 'JavaScript'
-        , desc: 'JavaScript é uma linguagem de programação poderosa focada em desenvolver aplicativos para a WEB, sendo uma das linguagens mais utilizadas pelo mundo todo'
+        , desc: 'JavaScript é uma linguagem de programação poderosa focada em desenvolver aplicativos WEB, sendo uma das linguagens mais utilizadas no mundo'
         , experiencia: 'Intermediario'
         , img: require('./imgs/javascript2.png')
         ,

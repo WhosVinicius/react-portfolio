@@ -23,8 +23,8 @@ function Projects() {
                         alt=""
                      />
                      <div className="items-cont m-50">
-                        <h2 className="cor-destaque m-20">{projeto.titulo}</h2>
-                        <p>{projeto.desc}</p>
+                        <h2 className="card-title cor-destaque m-20">{projeto.titulo}</h2>
+                        <p style={{margin:'50px'}}>{projeto.desc}</p>
                      </div>
                   </a>
                </div>
