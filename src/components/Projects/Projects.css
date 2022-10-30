@@ -4,7 +4,7 @@
    height: 100vh;
    display: flex;
    flex-direction: column;
-   gap: 25px;
+   gap: 5%;
    
    justify-content: center;
    align-items: center;
@@ -86,8 +86,8 @@
       min-width: 85%;
    }
    .icone1 {
-      margin-bottom: 30px;
-      font-size: 28px;
+      margin-bottom: 0px;
+      font-size: 22px;
    }
    .projects-container .icone1 {
       padding: 10px;

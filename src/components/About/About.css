@@ -49,7 +49,7 @@
 
 
 .t {
-	background-image: url("C:\Users\silva\OneDrive\Documentos\Projetos\projeto-react\public\assets\imgs\coding-.png");
+	background-image: url("C:\Users\Vinicius\Documents\Projects\web-portfolio\react-portfolio\public\assets\imgs\coding-.png");
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -58,8 +58,26 @@
 }
 
 .aux {
-	display: none;
+	padding: 0;
+	display: flex;
 }
+
+.aux ul {
+	display: flex;
+	gap: 50px;
+	list-style: none;
+	color: rgb(160, 160, 160);
+	letter-spacing: 2px;
+	justify-content: space-around;
+}
+
+.aux ul li {
+	margin: 50px;
+	margin-top: 0;
+
+	cursor: pointer;
+}
+
 .apresentacao p {
 	color: rgb(160, 160, 160);
 	font-size: 1.2em;

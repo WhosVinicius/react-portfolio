@@ -19,13 +19,13 @@ const  Skills =() => {
                      src={skill.img}
                      alt=""
                   />
-                  <div className="items-cont border-5">
+                  {/* <div className="items-cont border-5"> */}
                      <h2 className="center-text cor-destaque m-20">{skill.nome}</h2>
-                     <p className="center-text">
+                     <p className="desc m-20">
                         {skill.desc}
                      </p>
-                  </div>
-                     <p className="cor-destaque center-text">
+                  {/* </div> */}
+                     <p className="cor-destaque center-text testee">
                      Nivel de Experiencia: {skill.experiencia}
                      </p>
                </div>
