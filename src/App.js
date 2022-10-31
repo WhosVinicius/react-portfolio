@@ -7,7 +7,7 @@ function App() {
     <div
       className="App">
 
-      <FullPageE/>
+      <FullPageE />
 
     </div>
 

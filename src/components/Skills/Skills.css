@@ -1,110 +1,96 @@
 .skills-container {
-    height: 100vh;
-    /* padding-top:20px ; */
-    background: rgb(17, 17, 17);
-    /* padding-bottom: 50px; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    /* height: 100%; */
+	height: 100vh;
+	background: rgb(17, 17, 17);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
-
 
 .skills-list {
-    /* overflow: hidden; */
-    height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    width: 80vw;
-    gap: 20px;
-    justify-content: center;
+	height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	width: 80vw;
+	gap: 20px;
+	justify-content: center;
 }
 
-
 .desc {
-    margin: 10px;
-    font-size: 85%;
-    
-    color: rgb(160,160,160);
+	margin: 10px;
+	font-size: 85%;
+	color: rgb(160, 160, 160);
 }
 
 .skill-card {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0;
-    /* align-items: center; */
-    padding: 5px;
-    /* align-content: center; */
-    justify-content:flex-start;
-    background-color: rgba(28, 28, 28, 1);
-    width: 30%;
-    height: 33%;
-    border-radius: 10px;
-
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0;
+	padding: 5px;
+	justify-content: flex-start;
+	background-color: rgba(28, 28, 28, 1);
+	width: 30%;
+	height: 33%;
 }
 
 .testee {
-    align-self: flex-end;
-    margin-bottom: 15px ;
-    font-size: .85em;
-    width: 100%;
+	align-self: flex-end;
+	margin-bottom: 15px;
+	font-size: 0.85em;
+	width: 100%;
 }
-
 
 .skill-card div {
-     background-color: rgba(21, 21, 21, 0.55);
-
+	background-color: rgba(21, 21, 21, 0.55);
 }
 
+.skill-card img {
+	margin-left: 15px;
+	width: 50px;
+	height: 50px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
 
- .skill-card img {
-    margin-left: 15px;
-    width: 50px;
-    height: 50px;
-    margin-top: 10px;
-    margin-bottom: 0px;
- }
+@media only screen and (max-width: 986px) {
+	.skills-container {
+		height: 100vh;
+		/* align-items: flex-start; */
+		align-content: flex-start;
+	}
+	.skills-list {
+		align-self: center;
+		gap: 20px;
+		justify-content: space-between;
+		height: 100vh;
+		margin-top: 0;
+		flex-wrap: nowrap;
+		overflow-x: scroll;
+		height: 60vh;
+		align-items: center;
+		width: 100%;
+		height: 100%;
+		align-items: center;
+		align-content: center;
+	}
 
-
- @media only screen and (max-width: 986px) {
-    .skills-container {
-        height: 100vh;
-        /* align-items: flex-start; */
-        align-content: flex-start;
-    }
-    .skills-list {
-        align-self: center;
-        gap: 20px;
-        justify-content:space-between;
-        height: 100vh;
-        margin-top: 0;
-        flex-wrap: nowrap;
-        overflow-x: scroll;
-        height: 60vh;
-        align-items: center;
-        width: 100%;
-        height: 100%;
-        align-items: center;
-        align-content: center;
-
-    }
-
-    .skill-card {
-        min-width: 85%;
-        min-height: 70%;
-        align-self: center;
-        margin: 20px;
-    }
-    .skill-card .items-cont {
-        padding: 5px;
-    }
+	.skill-card {
+		min-width: 85%;
+		min-height: 70%;
+		align-self: center;
+		margin: 20px;
+	}
+	.skill-card .items-cont {
+		padding: 5px;
+	}
+	.desc {
+		font-size: 1.1rem;
+	}
 }
 
 .Iniciante {
-    color: #b5ff66;
+	color: #b5ff66;
 }
 
 .Intermediario {
-    color: #f5ff66;
+	color: #f5ff66;
 }
