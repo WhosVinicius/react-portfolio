@@ -1,29 +1,46 @@
 import React from "react";
 import "./About.css";
+import mePic from "./m2.png";
 function About() {
 	return (
 		<div
 			id="about"
 			className="about-container">
-			<div className="apresentacao">
-				<div className="static-txt">
-					<h1>Oi, eu sou o Vinicius</h1>
+			<div className="wraper1">
+				<div className="apresentacao">
+					<div className="static-txt">
+						<h1>Oi, eu sou o Vinicius</h1>
+					</div>
+					<div className="dynamic-txt">
+						<h1 className="typewriter cor-destaque">Desenvolvedor front-end </h1>
+					</div>
+					<p className="cor-secundaria">Eu sou um desenvolvedor front-end que gosta de construir interfaces de usuário limpas e responsivas</p>
+					<div className="aux">
+						<ul>
+							<li>GitHub</li>
+							<li>Email</li>
+							<li>Phone</li>
+						</ul>
+					</div>
 				</div>
-				<div className="dynamic-txt">
-					<h1 className="typewriter">Desenvolvedor front-end </h1>
+				<div className="img-wrap">
+					<img
+						src={mePic}
+						alt=""
+					/>
 				</div>
-				<p className="m-50">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dolorem perferendis, ipsam unde sunt vel odio? Facilis quas debitis
-					assumenda dicta harum tempore obcaecati! Quibusdam placeat ea nemo, voluptatum odit facere laborum eum sequi eaque nobis ut sint doloribus
-					tempore provident distinctio eius optio reiciendis in minima fugit reprehenderit omnis.
+			</div>
+			<div className="credit1 m-50">
+				<p className="cor-secundaria">
+					Arte feita por:
+					<a
+						className="cor-destaque"
+						href="https://www.instagram.com/nick_rzzz/"
+						target={"_blank"}
+						rel="noopener noreferrer">
+						@nick_rzzz
+					</a>
 				</p>
-				<div className="aux m-50">
-					<ul>
-						<li>GitHub</li>
-						<li>Email</li>
-						<li>Phone</li>
-					</ul>
-				</div>
 			</div>
 		</div>
 	);

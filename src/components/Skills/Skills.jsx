@@ -13,6 +13,7 @@ const Skills = () => {
 			<div className="skills-list">
 				{skills.map((skill) => (
 					<div
+						id={skill.nome}
 						key={skill.nome}
 						className="skill-card ">
 						<img
@@ -20,7 +21,7 @@ const Skills = () => {
 							alt=""
 						/>
 						<h2 className="center-text cor-destaque m-20 card-title">{skill.nome}</h2>
-						<p className="desc m-20">{skill.desc}</p>
+						<p className="desc cor-secundaria m-20">{skill.desc}</p>
 						<p className={"center-text testee " + skill.experiencia}>Nivel de Experiencia: {skill.experiencia}</p>
 					</div>
 				))}{" "}

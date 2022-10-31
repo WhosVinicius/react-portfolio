@@ -57,7 +57,7 @@
 	width: 80px;
 	height: 80px;
 }
-@media only screen and (max-width: 986px) {
+@media only screen and (max-width: 1020px) {
 	.card-container {
 		gap: 0;
 		height: 100vh;

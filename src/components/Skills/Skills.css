@@ -18,7 +18,8 @@
 .desc {
 	margin: 10px;
 	font-size: 85%;
-	color: rgb(160, 160, 160);
+	transition: 350ms ease;
+
 }
 
 .skill-card {
@@ -35,8 +36,13 @@
 .testee {
 	align-self: flex-end;
 	margin-bottom: 15px;
-	font-size: 0.85em;
+	font-size: 0.7em;
 	width: 100%;
+	transition: 350ms ease;
+}
+
+#JavaScript h2{
+	font-size: 1rem;
 }
 
 .skill-card div {
@@ -51,7 +57,7 @@
 	margin-bottom: 0px;
 }
 
-@media only screen and (max-width: 986px) {
+@media only screen and (max-width: 1020px) {
 	.skills-container {
 		height: 100vh;
 		/* align-items: flex-start; */

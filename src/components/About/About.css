@@ -1,6 +1,6 @@
 .about-container {
 	background: rgb(34, 34, 34);
-	background: radial-gradient(circle, rgba(34, 34, 34, 1) 10%, rgba(17, 17, 17, 1) 90%);
+	background: linear-gradient(45deg, rgba(34, 34, 34, 1) 10%, rgba(17, 17, 17, 1) 70%);
 	height: 100vh;
 	width: 100vw;
 	display: flex;
@@ -9,33 +9,123 @@
 	justify-content: center;
 }
 
+.wraper1 {
+	opacity: .8;
+	order: 3;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+}
+
 .apresentacao {
+	border-radius: 10%;
+	gap: 20px;
 	z-index: 1;
-	width: 50%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 5px;
 	flex-direction: column;
 }
 
 .static-txt {
-	justify-self: flex-start;
 	align-self: flex-start;
-	color: rgb(160, 160, 160);
-	font-size: 1.8em;
+	color: rgb(180, 180, 180);
+	font-size: 1.4em;
 	font-weight: 400;
+	letter-spacing: 3px;
 }
 
 .dynamic-txt {
-	font-size: 3em;
+	align-self: flex-start;
+	font-size: 1.8rem;
 	width: fit-content;
 	background-clip: text;
-	color: #ff6666;
 	letter-spacing: 3px;
 	word-wrap: break-word;
 }
 
+.apresentacao p {
+	font-size: 1em;
+	align-self: flex-start;
+	justify-self: flex-start;
+	width: 70%;
+	margin-bottom: 20px;
+}
+
+.img-wrap {
+	display: flex;
+	/* width: 50px; */
+}
+.img-wrap img {
+	width: 470px;
+	/* min-width: 350px !important; */
+	/* height: 100%; */
+	/* width: 650px; */
+	height: auto;
+	order: 1;
+	border-radius: 10%;
+	border-right: 3px solid #ff6666;
+	box-sizing: border-box;
+}
+
+.credit1 {
+	margin-right: 0px !important;
+	order: 1;
+	width: 0px;
+	align-self: flex-end;
+}
+
+.credit1 p {
+	padding: 5px;
+	writing-mode: vertical-lr;
+	font-size: 0.8rem;
+}
+
+.apresentacao p,
+h1 {
+	font-family: "Open Sans" !important;
+}
+
+.aux {
+	padding: 0;
+	display: flex;
+}
+
+.aux ul {
+	display: flex;
+	gap: 50px;
+	list-style: none;
+	color: rgb(160, 160, 160);
+	letter-spacing: 1.2px;
+	justify-content: space-between;
+}
+
+.aux ul li:hover {
+	color: #ff6666;
+}
+
+.aux ul li {
+	font-size: 1.1em;
+	margin: 50px;
+	margin-top: 0;
+	cursor: pointer;
+	transition: 350ms ease;
+}
+
+#menu-background-pattern {
+	background-image: radial-gradient(rgba(255, 255, 255, 0.099) 5%, transparent 5%);
+	background-position: 0% 0%;
+	background-size: 3vmin 3vmin;
+	height: 100vh;
+	left: 0px;
+	position: absolute;
+	top: 0px;
+	transition: opacity 800ms ease, background-size 800ms ease, background-position 800ms ease;
+	width: 100vw;
+	z-index: -1;
+}
 .typewriter {
 	overflow: hidden; /* Ensures the content is not revealed until the animation */
 	border-right: 0.07em solid orange; /* The typwriter cursor */
@@ -62,58 +152,7 @@
 	}
 }
 
-.aux {
-	padding: 0;
-	display: flex;
-}
-
-.aux ul {
-	display: flex;
-	gap: 50px;
-	list-style: none;
-	color: rgb(160, 160, 160);
-	letter-spacing: 1.2px;
-	justify-content: space-around;
-}
-
-.aux ul li:hover {
-	color: #ff6666;
-}
-
-.aux ul li {
-	font-size: 1.2em;
-	margin: 50px;
-	margin-top: 0;
-	cursor: pointer;
-	transition: 350ms ease;
-}
-
-.apresentacao p {
-	color: rgb(160, 160, 160);
-	font-size: 1.2em;
-	align-self: flex-start;
-	justify-self: flex-start;
-}
-
-.apresentacao p,
-h1 {
-	font-family: "Open Sans" !important;
-}
-
-#menu-background-pattern {
-	background-image: radial-gradient(rgba(255, 255, 255, 0.099) 5%, transparent 5%);
-	background-position: 0% 0%;
-	background-size: 3vmin 3vmin;
-	height: 100vh;
-	left: 0px;
-	position: absolute;
-	top: 0px;
-	transition: opacity 800ms ease, background-size 800ms ease, background-position 800ms ease;
-	width: 100vw;
-	z-index: -1;
-}
-
-@media only screen and (max-width: 986px) {
+@media only screen and (max-width: 1020px) {
 	.nav-container {
 		display: none !important;
 	}
@@ -123,6 +162,9 @@ h1 {
 		height: 100vh;
 		width: 100%;
 		flex-direction: column;
+		align-items: flex-start;
+		align-content: flex-start;
+		justify-content: flex-start;
 	}
 	.apresentacao {
 		height: 100%;
@@ -135,22 +177,21 @@ h1 {
 	}
 	.dynamic-txt {
 		margin: 0;
-		font-size: 1.1rem;
+		font-size: 1rem;
 	}
 	.static-txt {
 		font-size: 0.8rem;
 	}
-	.t {
-		display: none;
-	}
 	.apresentacao p {
 		margin: 0;
+		width: 100%;
 		font-size: 0.9rem;
 	}
 	.apresentacao h1 {
 		letter-spacing: 1px;
 	}
 	.aux {
+		margin-top: 50px;
 		align-self: center;
 		justify-self: center;
 	}
@@ -163,7 +204,18 @@ h1 {
 		margin: 0;
 		color: rgb(160, 160, 160);
 		cursor: pointer;
-		font-size: 0.7rem;
+		font-size: 0.9rem;
 		text-transform: capitalize;
+	}
+
+	.img-wrap {
+		display: none;
+	}
+
+	.credit1 {
+		display: none;
+	}
+	.wraper1 {
+		margin-top: 100px;
 	}
 }

@@ -12,10 +12,11 @@ function Projects() {
 			</div>
 			<div className="card-container">
 				{projects.map((projeto) => (
-					<div className="card center-text">
+					<div
+						className="card center-text"
+						key={projeto.titulo}>
 						<a
 							href={projeto.repo}
-							key={projeto.titulo}
 							target="_blank"
 							rel="noopener noreferrer">
 							<img
@@ -24,7 +25,7 @@ function Projects() {
 							/>
 							<div className="items-cont m-50">
 								<h2 className="card-title cor-destaque m-20">{projeto.titulo}</h2>
-								<p style={{ margin: "50px" }}>{projeto.desc}</p>
+								<p className="m-50 cor-secundaria">{projeto.desc}</p>
 							</div>
 						</a>
 					</div>
