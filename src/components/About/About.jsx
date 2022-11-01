@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import mePic from "./aa.png";
+import logo from "./logo2.png";
 const About = () => {
 	return (
 		<div
@@ -38,15 +39,21 @@ const About = () => {
 			</div>
 			<div className="credit1 m-50">
 				<p className="cor-secundaria">
-					Arte feita por:
+					Arte feita por
 					<a
 						className="cor-destaque"
 						href="https://www.instagram.com/nick_rzzz/"
 						target={"_blank"}
 						rel="noopener noreferrer">
-						@nick_rzzz
+						:@nick_rzzz
 					</a>
 				</p>
+			</div>
+			<div className="logo">
+				<img
+					src={logo}
+					alt=""
+				/>
 			</div>
 		</div>
 	);
