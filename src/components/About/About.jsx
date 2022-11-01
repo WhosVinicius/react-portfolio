@@ -14,7 +14,7 @@ const About = () => {
 					<div className="dynamic-txt">
 						<h1 className="typewriter cor-destaque">Desenvolvedor front-end </h1>
 					</div>
-					<p className="cor-secundaria">Eu sou um desenvolvedor front-end que gosta de construir interfaces de usuário limpas e responsivas</p>
+					<p className="cor-secundaria">Eu sou um desenvolvedor front-end que gosta de construir interfaces de usuário limpas e responsivas.</p>
 					<div className="aux">
 						<ul>
 							<li>

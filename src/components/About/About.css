@@ -1,21 +1,20 @@
 .about-container {
-	background: rgb(34, 34, 34);
+	background: rgb(234, 234, 234);
 	background: linear-gradient(45deg, rgba(34, 34, 34, 1) 10%, rgba(17, 17, 17, 1) 70%);
 	min-height: 100vh !important;
 	width: 100vw;
 	display: flex;
 	align-items: center;
-	align-content: center;
-	justify-content: center;
+	/* align-content: center; */
+	/* justify-content: center; */
 }
 
 .wraper1 {
 	opacity: 0.8;
 	order: 3;
 	width: 100%;
+	margin-bottom: 5rem;
 	display: flex;
-	align-items: center;
-	align-content: center;
 	justify-content: center;
 }
 
@@ -49,12 +48,17 @@
 
 .apresentacao p {
 	border-left: 2px solid rgb(160, 160, 160);
-	padding-left: 5px;
+	padding-left: 10px;
 	font-size: 1em;
 	align-self: flex-start;
 	justify-self: flex-start;
 	width: 70%;
 	margin-bottom: 20px;
+	transition: ease 0.5s;
+}
+
+.apresentacao p:hover {
+	border-left-color: #ff6666;
 }
 
 .img-wrap {
@@ -66,7 +70,8 @@
 	order: 1;
 	box-sizing: border-box;
 	border-radius: 10%;
-	border-left: 1px solid #ff6666;
+	border-left: 2px solid #ff6666;
+	transition: ease 0.7s;
 }
 
 .credit1 {
@@ -110,11 +115,9 @@ h1 {
 
 .aux ul li {
 	color: rgb(200 200 200);
-
 	font-size: 1.1em;
-	/* margin: 50px; */
 	margin-top: 0;
-	cursor: pointer;
+	/* cursor: pointer; */
 	transition: 350ms ease;
 }
 
@@ -138,7 +141,7 @@ h1 {
 	overflow: hidden; /* Ensures the content is not revealed until the animation */
 	border-right: 0.07em solid orange; /* The typwriter cursor */
 	white-space: nowrap; /* Keeps the content on a single line */
-	animation: typing 3.5s steps(60, end), blink-caret 0.75s step-end infinite;
+	animation: typing 3.5s steps(60, end), blink-caret 0.9s linear infinite;
 }
 
 @keyframes typing {

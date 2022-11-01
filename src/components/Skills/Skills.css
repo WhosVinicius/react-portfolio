@@ -14,7 +14,6 @@
 	display: grid;
 	width: 80vw;
 	gap: 20px;
-	/* justify-content: center; */
 }
 
 .skill-card {
@@ -24,17 +23,21 @@
 	flex-wrap: wrap;
 	padding: 15px;
 	background-color: rgba(28, 28, 28, 1);
-	transition: opacity 800ms ease, background-size 800ms ease, background-position 800ms ease;
+	transition: opacity 800ms ease, background-size 800ms ease, background-position 800ms ease, border 800ms ease;
 	/* width: 30%; */
 	height: 75%;
+	border-radius: 3px;
 }
 
 .skill-card:hover {
+	border: 1px solid rgb(130 130 130 / 0.75);
+
 	background-size: 3vmin 3vmin;
 }
 
 .desc {
 	/* margin: 10px; */
+	height: 45%;
 	font-size: 0.9em;
 	transition: 350ms ease;
 }

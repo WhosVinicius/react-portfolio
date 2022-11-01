@@ -16,7 +16,7 @@ export const projects = [
     },
     {
         titulo: 'web-scraper'
-        , desc: 'Um scraper feito para adquirir informações de um site na WEB'
+        , desc: 'Um scraper feito para adquirir informações de um site na WEB e as retorna em um arquivo CSV'
         , ref: 'N/A'
         , repo: 'https:/github.com/WhosVinicius/webScrape1'
         , img: require('./imgs/spider.png')
