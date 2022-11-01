@@ -18,14 +18,19 @@
 }
 
 .skill-card {
-	background-image: radial-gradient(rgba(40, 40, 40, 0.346) 15%, transparent 6%);
+	background-image: radial-gradient(rgba(40, 40, 40, 0.346) 15%, transparent 2%);
 	background-size: 2vmin 2vmin;
 	display: flex;
 	flex-wrap: wrap;
 	padding: 15px;
 	background-color: rgba(28, 28, 28, 1);
+	transition: opacity 800ms ease, background-size 800ms ease, background-position 800ms ease;
 	/* width: 30%; */
 	height: 75%;
+}
+
+.skill-card:hover {
+	background-size: 3vmin 3vmin;
 }
 
 .desc {

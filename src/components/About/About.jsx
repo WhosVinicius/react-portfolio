@@ -17,7 +17,14 @@ const About = () => {
 					<p className="cor-secundaria">Eu sou um desenvolvedor front-end que gosta de construir interfaces de usuário limpas e responsivas</p>
 					<div className="aux">
 						<ul>
-							<li>GitHub</li>
+							<li>
+								<a
+									href="https://github.com/WhosVinicius"
+									target={"_blank"}
+									rel="noopener noreferrer">
+									GitHub
+								</a>
+							</li>
 							<li>silvaviniciusgontijo@gmail.com</li>
 						</ul>
 					</div>
