@@ -23,6 +23,8 @@
 }
 
 .skill-card {
+	background-image: radial-gradient(rgba(40, 40, 40, 0.346) 15%, transparent 6%);
+	background-size: 2vmin 2vmin;
 	display: flex;
 	flex-wrap: wrap;
 	gap: 0;
@@ -34,6 +36,7 @@
 }
 
 .testee {
+	
 	align-self: flex-end;
 	margin-bottom: 15px;
 	font-size: 0.7em;
@@ -80,6 +83,7 @@
 	}
 
 	.skill-card {
+
 		min-width: 85%;
 		min-height: 70%;
 		align-self: center;

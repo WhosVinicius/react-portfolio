@@ -1,12 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import "./About.css";
 import mePic from "./m2.png";
-function About() {
+const About = () => {
 	return (
 		<div
 			id="about"
 			className="about-container">
-			<div className="wraper1">
+			<div className="wraper1 ">
 				<div className="apresentacao">
 					<div className="static-txt">
 						<h1>Oi, eu sou o Vinicius</h1>
@@ -18,8 +18,7 @@ function About() {
 					<div className="aux">
 						<ul>
 							<li>GitHub</li>
-							<li>Email</li>
-							<li>Phone</li>
+							<li>silvaviniciusgontijo@gmail.com</li>
 						</ul>
 					</div>
 				</div>
@@ -44,6 +43,6 @@ function About() {
 			</div>
 		</div>
 	);
-}
+};
 
 export default About;

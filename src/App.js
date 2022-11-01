@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import './dark.css'
 import FullPageE from './FullPageE';
 
 function App() {

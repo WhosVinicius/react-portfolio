@@ -1,7 +1,7 @@
 .about-container {
 	background: rgb(34, 34, 34);
 	background: linear-gradient(45deg, rgba(34, 34, 34, 1) 10%, rgba(17, 17, 17, 1) 70%);
-	height: 100vh;
+	min-height: 100vh !important;
 	width: 100vw;
 	display: flex;
 	align-items: center;
@@ -10,7 +10,7 @@
 }
 
 .wraper1 {
-	opacity: .8;
+	opacity: 0.8;
 	order: 3;
 	width: 100%;
 	display: flex;
@@ -20,18 +20,20 @@
 }
 
 .apresentacao {
-	border-radius: 10%;
+	margin-left: 50px;
+	/* border-radius: 10%; */
 	gap: 20px;
 	z-index: 1;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	/* animation: ease fadeIn 1.5s; */
 }
 
 .static-txt {
 	align-self: flex-start;
-	color: rgb(180, 180, 180);
+	color: rgb(200 200 200);
 	font-size: 1.4em;
 	font-weight: 400;
 	letter-spacing: 3px;
@@ -39,7 +41,7 @@
 
 .dynamic-txt {
 	align-self: flex-start;
-	font-size: 1.8rem;
+	font-size: 2.2rem;
 	width: fit-content;
 	background-clip: text;
 	letter-spacing: 3px;
@@ -52,6 +54,7 @@
 	justify-self: flex-start;
 	width: 70%;
 	margin-bottom: 20px;
+	/* transition: .5s; */
 }
 
 .img-wrap {
@@ -59,18 +62,13 @@
 	/* width: 50px; */
 }
 .img-wrap img {
-	width: 470px;
-	/* min-width: 350px !important; */
-	/* height: 100%; */
-	/* width: 650px; */
 	height: auto;
 	order: 1;
-	border-radius: 10%;
-	border-right: 3px solid #ff6666;
 	box-sizing: border-box;
 }
 
 .credit1 {
+	margin-top: 50px;
 	margin-right: 0px !important;
 	order: 1;
 	width: 0px;
@@ -78,11 +76,15 @@
 }
 
 .credit1 p {
-	padding: 5px;
+	padding: 2px;
 	writing-mode: vertical-lr;
 	font-size: 0.8rem;
+	transition: ease 0.25s;
 }
 
+.credit1 p:hover {
+	font-size: 1.2rem;
+}
 .apresentacao p,
 h1 {
 	font-family: "Open Sans" !important;
@@ -91,40 +93,43 @@ h1 {
 .aux {
 	padding: 0;
 	display: flex;
+	align-self: flex-start !important;
 }
 
 .aux ul {
 	display: flex;
+	flex-wrap: wrap;
 	gap: 50px;
 	list-style: none;
-	color: rgb(160, 160, 160);
 	letter-spacing: 1.2px;
 	justify-content: space-between;
+}
+
+.aux ul li {
+	color: rgb(200 200 200);
+
+	font-size: 1.1em;
+	/* margin: 50px; */
+	margin-top: 0;
+	cursor: pointer;
+	transition: 350ms ease;
 }
 
 .aux ul li:hover {
 	color: #ff6666;
 }
 
-.aux ul li {
-	font-size: 1.1em;
-	margin: 50px;
-	margin-top: 0;
-	cursor: pointer;
-	transition: 350ms ease;
-}
-
-#menu-background-pattern {
-	background-image: radial-gradient(rgba(255, 255, 255, 0.099) 5%, transparent 5%);
+.menu-background-pattern {
+	background-image: linear-gradient(rgba(255, 255, 255, 0.099) 1%, transparent 35%);
 	background-position: 0% 0%;
-	background-size: 3vmin 3vmin;
-	height: 100vh;
+	background-size: 1vmin 1vmin;
+	/* height: 100%; */
 	left: 0px;
-	position: absolute;
-	top: 0px;
+	/* position: absolute; */
+	/* top: 0px; */
 	transition: opacity 800ms ease, background-size 800ms ease, background-position 800ms ease;
 	width: 100vw;
-	z-index: -1;
+	/* z-index: -1; */
 }
 .typewriter {
 	overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -167,6 +172,7 @@ h1 {
 		justify-content: flex-start;
 	}
 	.apresentacao {
+		margin: 0px !important;
 		height: 100%;
 		width: 80%;
 		gap: 20px;
@@ -176,7 +182,6 @@ h1 {
 		padding: 0;
 	}
 	.dynamic-txt {
-		margin: 0;
 		font-size: 1rem;
 	}
 	.static-txt {
@@ -198,7 +203,7 @@ h1 {
 	.aux ul {
 		align-self: center;
 		justify-self: center;
-		flex-direction: column;
+		flex-direction: row;
 	}
 	.aux ul li {
 		margin: 0;
@@ -210,6 +215,9 @@ h1 {
 
 	.img-wrap {
 		display: none;
+		order: 4;
+		height: 30px;
+		width: 30px;
 	}
 
 	.credit1 {
