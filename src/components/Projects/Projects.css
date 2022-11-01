@@ -7,8 +7,8 @@
 	gap: 5%;
 	justify-content: center;
 	align-items: center;
-	padding-top: 20px;
-
+	padding-top: 50px;
+	padding-bottom: 20px;
 }
 
 .icone1 h4 {
@@ -21,24 +21,20 @@
 
 .card-container {
 	height: 100vh;
-	gap: 0px;
 	width: 80vw;
-	display: flex;
-	flex-wrap: wrap;
-	gap: 25px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 30px;
 	padding-bottom: 100px;
-
 }
 
 .card {
 	background-color: rgba(35, 35, 35, 1);
-	display: flex;
-	flex-direction: column;
-	width: 31%;
-	height: 45%;
+	/* display: flex; */
 	max-height: 300px;
+	height: 90%;
 	color: rgb(180, 180, 180);
-	transition: ease 0.2s;
+	transition: ease 0.5s;
 }
 
 .card img {
@@ -49,13 +45,17 @@
 	width: 70px;
 	height: 70px;
 	border: 7px solid rgb(15, 15, 15);
-	transition: ease 0.25s;
+	transition: ease 0.55s;
 }
 
 .card:hover {
 	background-color: rgba(70, 70, 70, 0.8);
-	padding: 7px;
-	/* transform: rotate(-1deg); */
+	border: 1px solid;
+	/* transform: rotatex(10deg) rotateY(10deg); */
+}
+
+.card:hover .card-title {
+	font-size: 1.4rem;
 }
 
 .card:hover img {
@@ -64,6 +64,7 @@
 }
 @media only screen and (max-width: 1020px) {
 	.card-container {
+		display: flex;
 		gap: 0;
 		height: 100vh;
 		margin-top: 0;

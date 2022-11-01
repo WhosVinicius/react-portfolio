@@ -5,6 +5,15 @@
 	padding: 0;
 	text-decoration: none;
 	scroll-behavior: smooth;
+	scrollbar-width: none !important;
+}
+
+div[role="button"] {
+	background-color: rgb(160, 160, 160) !important;
+}
+
+::-webkit-scrollbar {
+	display: none;
 }
 
 a {
@@ -38,7 +47,6 @@ code {
 	border: 5px solid rgb(21, 21, 21, 0.35);
 }
 
-
 .items-cont {
 	display: flex;
 	flex-direction: column;
@@ -66,26 +74,29 @@ code {
 	color: rgb(160, 160, 160);
 }
 
-
 .card-title {
 	word-wrap: none;
 	word-break: keep-all;
 	font-size: 1.2rem;
-	margin-right: 25px;
 	display: inline;
 	text-align: center;
 	letter-spacing: 2px;
+	transition: ease 0.55s;
 }
 
 .cor-destaque {
-    color:#ff6666;
+	color: #ff6666;
 }
 
 .cor-secundaria {
-    color: rgb(160, 160, 160);
+	color: rgb(160, 160, 160);
 }
 
 @keyframes fadeIn {
-	0% { opacity: 0; }
-	100% { opacity: 1; }
-  }
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

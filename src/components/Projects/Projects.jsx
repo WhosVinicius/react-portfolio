@@ -23,9 +23,13 @@ function Projects() {
 								src={projeto.img}
 								alt=""
 							/>
-							<div className="items-cont m-50">
-								<h2 className="card-title cor-destaque m-20">{projeto.titulo}</h2>
-								<p className="m-50 cor-secundaria">{projeto.desc}</p>
+							<div className="items-cont m-20">
+								<h2
+									className="card-title cor-destaque"
+									style={{ marginTop: "20px" }}>
+									{projeto.titulo}
+								</h2>
+								<p className="desc m-50 cor-secundaria">{projeto.desc}</p>
 							</div>
 						</a>
 					</div>

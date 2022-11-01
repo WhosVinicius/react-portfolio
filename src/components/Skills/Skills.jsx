@@ -20,7 +20,11 @@ const Skills = () => {
 							src={skill.img}
 							alt=""
 						/>
-						<h2 className="center-text cor-destaque m-20 card-title">{skill.nome}</h2>
+						<h2
+							className="center-text cor-destaque m-20 card-title"
+							style={{ marginRight: "20px" }}>
+							{skill.nome}
+						</h2>
 						<p className="desc cor-secundaria m-20">{skill.desc}</p>
 						<p className={"center-text testee " + skill.experiencia}>Nivel de Experiencia: {skill.experiencia}</p>
 					</div>

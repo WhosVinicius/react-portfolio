@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import "./About.css";
-import mePic from "./m2.png";
+import mePic from "./aa.png";
 const About = () => {
 	return (
 		<div
