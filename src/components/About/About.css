@@ -1,6 +1,6 @@
 .about-container {
-	background: rgb(234, 234, 234);
-	background: linear-gradient(45deg, rgba(34, 34, 34, 1) 10%, rgba(17, 17, 17, 1) 70%);
+	background: rgb(24 24 31);
+	background: linear-gradient(45deg, rgba(24 24 31 / 1) 35%, rgba(30 30 37 / 1) 90%);
 	min-height: 100vh !important;
 	width: 100vw;
 	display: flex;

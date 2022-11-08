@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
 .projects-container {
-	background: rgb(26, 26, 26);
+	background: rgb(30, 30, 36);
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
