@@ -3,6 +3,7 @@ import "./About.css";
 import mePic from "./aa.png";
 import logo from "./logo2.png";
 const About = () => {
+	const name = "Vinicius";
 	return (
 		<div
 			id="about"
@@ -10,7 +11,9 @@ const About = () => {
 			<div className="wraper1 ">
 				<div className="apresentacao">
 					<div className="static-txt">
-						<h1>Oi, eu sou o Vinicius</h1>
+						<p id="intro">
+							Oi, eu sou o<h1 id="name">{name}</h1>
+						</p>
 					</div>
 					<div className="dynamic-txt">
 						<h1 className="typewriter cor-destaque">Desenvolvedor front-end </h1>

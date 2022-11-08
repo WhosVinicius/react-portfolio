@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
 .projects-container {
-	background: rgb(30, 30, 36);
+	background: rgb(28 28 34);
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -29,13 +29,14 @@
 }
 
 .card {
-	background-color: rgba(35, 35, 35, 1);
-	/* display: flex; */
+	border: 1px solid transparent;
+
+	background-color: rgba(90 90 115 / 0.186);
 	max-height: 300px;
 	height: 90%;
 	color: rgb(180, 180, 180);
 	transition: ease 0.5s;
-	border-radius: 3px;
+	border-radius: 12px;
 }
 
 .card img {
@@ -45,24 +46,24 @@
 	border-radius: 50%;
 	width: 70px;
 	height: 70px;
-	border: 7px solid rgb(15, 15, 15);
-	transition: ease 0.55s;
+	border: 3px solid rgb(15, 15, 15);
+	transition: ease 0.45s;
 }
 
 .card:hover {
-	background-color: rgba(70, 70, 70, 0.8);
+	filter: contrast(1.5);
 	border: 1px solid;
 	/* transform: rotatex(10deg) rotateY(10deg); */
 }
 
-.card:hover .card-title {
-	font-size: 1.4rem;
+.card:hover img {
+	border: 3px solid transparent;
 }
 
-.card:hover img {
-	width: 80px;
-	height: 80px;
+.card:hover .card-title {
+	font-size: 1.3rem;
 }
+
 @media only screen and (max-width: 1020px) {
 	.card-container {
 		display: flex;
