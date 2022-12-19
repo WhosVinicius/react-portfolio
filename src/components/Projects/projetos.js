@@ -8,11 +8,11 @@ export const projects = [
         , img: require('./imgs/pokemon.png')
     },
     {
-        titulo: 'Python Bot'
-        , desc: 'Um bot feito em Python para mandar e-mails fofos'
+        titulo: 'Site de noticias'
+        , desc: 'Um site de noticias simples em que voce pode ver as noticias de varios paises do mundo!'
         , ref: 'N/A'
         , repo: 'https:/replit.com/@ViniciusGontijo/Bot1stTry#main.py'
-        , img: require('./imgs/bot.png')
+        , img: require('./imgs/news.png')
     },
     {
         titulo: 'web-scraper'
