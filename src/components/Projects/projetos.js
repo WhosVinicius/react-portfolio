@@ -11,7 +11,7 @@ export const projects = [
         titulo: 'Site de noticias'
         , desc: 'Um site de noticias simples em que voce pode ver as noticias de varios paises do mundo!'
         , ref: 'N/A'
-        , repo: 'https:/replit.com/@ViniciusGontijo/Bot1stTry#main.py'
+        , repo: ''
         , img: require('./imgs/news.png')
     },
     {
