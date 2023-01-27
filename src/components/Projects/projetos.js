@@ -9,16 +9,16 @@ export const projects = [
     },
     {
         titulo: 'Site de noticias'
-        , desc: 'Um site de noticias simples em que voce pode ver as noticias de varios paises do mundo!'
+        , desc: 'Um site de noticias feito em react,nele voce pode ver as noticias de varios paises do mundo!'
         , ref: 'N/A'
         , repo: ''
         , img: require('./imgs/news.png')
     },
     {
         titulo: 'web-scraper'
-        , desc: 'Um scraper feito para adquirir informações de um site na WEB e as retorna em um arquivo CSV'
+        , desc: 'Um app feito em react para criar anotações e com função de adicionar tags e pesquisar/filtar pelas suas anotações'
         , ref: 'N/A'
-        , repo: 'https:/github.com/WhosVinicius/webScrape1'
+        , repo: ''
         , img: require('./imgs/spider.png')
     },
     {
