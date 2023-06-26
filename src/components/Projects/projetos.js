@@ -15,8 +15,8 @@ export const projects = [
         , img: require('./imgs/news.png')
     },
     {
-        titulo: 'web-scraper'
-        , desc: 'Um app feito em react para criar anotações e com função de adicionar tags e pesquisar/filtar pelas suas anotações'
+        titulo: 'Editor de texto em REACT'
+        , desc: 'Um editor de texto com sistemas de arquivos, sistema de pesquisa e filtragem completamente funcional. Construído em React e NODE'
         , ref: 'N/A'
         , repo: ''
         , img: require('./imgs/spider.png')
