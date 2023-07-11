@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.bd148cb3.css",
-    "main.js": "/react-portfolio/static/js/main.5ba049c5.js",
+    "main.js": "/react-portfolio/static/js/main.d7d51d61.js",
     "static/media/React-icon.svg.png": "/react-portfolio/static/media/React-icon.svg.44319306359c7112276d.png",
     "static/media/image.png": "/react-portfolio/static/media/image.42cc44c29c5edfec3600.png",
-    "static/media/github.png": "/react-portfolio/static/media/github.3ec61b93854178c47369.png",
     "static/media/news.png": "/react-portfolio/static/media/news.13f5bcbd8b7d07d29b69.png",
     "static/media/aa.png": "/react-portfolio/static/media/aa.e7e5f5294092d06466f7.png",
+    "static/media/node.png": "/react-portfolio/static/media/node.007e99f68b718e476aba.png",
     "static/media/txtEditor.png": "/react-portfolio/static/media/txtEditor.1da003e0e4f804023f17.png",
-    "static/media/css.png": "/react-portfolio/static/media/css.463e319bad8e0edf1ef7.png",
+    "static/media/java.png": "/react-portfolio/static/media/java.f5dd86c3ef6ef3f85acf.png",
     "static/media/python.webp": "/react-portfolio/static/media/python.7a9da81b5ea6a4550127.webp",
     "static/media/logo2.png": "/react-portfolio/static/media/logo2.801778c448403100eb1f.png",
     "static/media/javascript2.png": "/react-portfolio/static/media/javascript2.266bd9fb2663dcc057b4.png",
     "index.html": "/react-portfolio/index.html",
     "main.bd148cb3.css.map": "/react-portfolio/static/css/main.bd148cb3.css.map",
-    "main.5ba049c5.js.map": "/react-portfolio/static/js/main.5ba049c5.js.map"
+    "main.d7d51d61.js.map": "/react-portfolio/static/js/main.d7d51d61.js.map"
   },
   "entrypoints": [
     "static/css/main.bd148cb3.css",
-    "static/js/main.5ba049c5.js"
+    "static/js/main.d7d51d61.js"
   ]
 }
